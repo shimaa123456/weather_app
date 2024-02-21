@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1000.0" style="-fx-background-image: src\images\cairo.jpg;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="668.0" fitWidth="1236.0" opacity="0.78" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/asut.jpg" />
+         </image></ImageView>
+      <Label layoutX="383.0" layoutY="-9.0" prefHeight="168.0" prefWidth="317.0" text="Assiut" textFill="#bf0b0b">
+         <padding>
+            <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+         </padding>
+         <font>
+            <Font name="Britannic Bold" size="96.0" />
+         </font>
+      </Label>
+      <Label fx:id="date1" layoutX="693.0" layoutY="486.0" prefHeight="77.0" prefWidth="305.0" text="tuesday , 2023-12-6">
+         <padding>
+            <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+         </padding>
+         <font>
+            <Font name="Arial" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="weatherConditionImage" fitHeight="105.0" fitWidth="134.0" layoutX="236.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/cloudy.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="temperatureText" layoutX="228.0" layoutY="318.0" prefHeight="101.0" prefWidth="348.0" text="23 c">
+         <font>
+            <Font name="System Bold" size="69.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="57.0" fitWidth="78.0" layoutX="23.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/hum.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="humidityText" layoutX="87.0" layoutY="451.0" prefHeight="45.0" prefWidth="178.0" text="Humidity 53%">
+         <padding>
+            <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="57.0" fitWidth="78.0" layoutX="310.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/wind%20speed.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="windspeedText" layoutX="398.0" layoutY="451.0" prefHeight="55.0" prefWidth="272.0" text="WindSpeed 12.0 km/h">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <padding>
+            <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+         </padding>
+      </Label>
+      <Pane layoutY="563.0" opacity="0.88" prefHeight="337.0" prefWidth="1001.0" style="-fx-background-color: rgb(0,51,102);">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <ImageView fx:id="weatherConditionImage2" fitHeight="66.0" fitWidth="73.0" layoutX="27.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/cloudy.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="46.0" prefHeight="45.0" prefWidth="119.0" text="Today" textFill="#f8f8f8">
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Label fx:id="date2" layoutX="105.0" layoutY="46.0" prefHeight="63.0" prefWidth="184.0" text="Tuesday,2023,12,4" textFill="#f8f8f8">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="date3" layoutX="263.0" layoutY="46.0" prefHeight="63.0" prefWidth="163.0" text="Tuesday,2023,12,4" textFill="#f8f8f8">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="date4" layoutX="415.0" layoutY="46.0" prefHeight="63.0" prefWidth="157.0" text="Tuesday,2023,12,4" textFill="#f8f8f8">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="date5" layoutX="549.0" layoutY="46.0" prefHeight="63.0" prefWidth="163.0" text="Tuesday,2023,12,4" textFill="#f8f8f8">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="date6" layoutX="696.0" layoutY="46.0" prefHeight="63.0" prefWidth="157.0" text="Tuesday,2023,12,4" textFill="#f8f8f8">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="date7" layoutX="837.0" layoutY="46.0" prefHeight="63.0" prefWidth="163.0" text="Tuesday,2023,12,4" textFill="#f8f8f8">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <ImageView fx:id="weatherConditionImage3" fitHeight="66.0" fitWidth="73.0" layoutX="158.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/cloudy.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="weatherConditionImage4" fitHeight="66.0" fitWidth="73.0" layoutX="308.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/cloudy.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="weatherConditionImage5" fitHeight="66.0" fitWidth="73.0" layoutX="449.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/cloudy.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="weatherConditionImage6" fitHeight="66.0" fitWidth="73.0" layoutX="583.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/cloudy.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="weatherConditionImage7" fitHeight="66.0" fitWidth="73.0" layoutX="730.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/cloudy.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="weatherConditionImage8" fitHeight="66.0" fitWidth="73.0" layoutX="864.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/cloudy.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="con1" layoutX="14.0" layoutY="169.0" prefHeight="48.0" prefWidth="99.0" text="Cloudy" textFill="#f8f8f8">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="con2" layoutX="145.0" layoutY="169.0" prefHeight="48.0" prefWidth="99.0" text="Cloudy" textFill="#f8f8f8">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="con3" layoutX="295.0" layoutY="169.0" prefHeight="48.0" prefWidth="99.0" text="Cloudy" textFill="#f8f8f8">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="con4" layoutX="436.0" layoutY="169.0" prefHeight="48.0" prefWidth="99.0" text="Cloudy" textFill="#f8f8f8">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="con5" layoutX="570.0" layoutY="169.0" prefHeight="48.0" prefWidth="99.0" text="Cloudy" textFill="#f8f8f8">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="con6" layoutX="717.0" layoutY="169.0" prefHeight="48.0" prefWidth="99.0" text="Cloudy" textFill="#f8f8f8">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="con7" layoutX="858.0" layoutY="169.0" prefHeight="48.0" prefWidth="99.0" text="Cloudy" textFill="#f8f8f8">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="temp1" layoutX="27.0" layoutY="227.0" prefHeight="51.0" prefWidth="73.0" text="14.0" textFill="#f8f6f6">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="temp2" layoutX="158.0" layoutY="227.0" prefHeight="51.0" prefWidth="73.0" text="14.0" textFill="#f8f6f6">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="temp3" layoutX="308.0" layoutY="227.0" prefHeight="51.0" prefWidth="73.0" text="14.0" textFill="#f8f6f6">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="temp4" layoutX="449.0" layoutY="227.0" prefHeight="51.0" prefWidth="73.0" text="14.0" textFill="#f8f6f6">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="temp5" layoutX="583.0" layoutY="227.0" prefHeight="51.0" prefWidth="73.0" text="14.0" textFill="#f8f6f6">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="temp6" layoutX="730.0" layoutY="227.0" prefHeight="51.0" prefWidth="73.0" text="14.0" textFill="#f8f6f6">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+            <Label fx:id="temp7" layoutX="864.0" layoutY="227.0" prefHeight="51.0" prefWidth="73.0" text="14.0" textFill="#f8f6f6">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </Label>
+         </children>
+      </Pane>
+      <Label fx:id="weatherConditionDesc" layoutX="236.0" layoutY="273.0" prefHeight="51.0" prefWidth="119.0" text="Cloudy">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <padding>
+            <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+         </padding>
+      </Label>
+   </children>
+</Pane>

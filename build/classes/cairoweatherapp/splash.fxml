@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutY="-1.0" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: cyan;">
+         <children>
+            <Pane layoutY="-2.0" prefHeight="169.0" prefWidth="1000.0" style="-fx-background-color: red;">
+               <children>
+                  <Button fx:id="exitButton" layoutX="941.0" layoutY="17.0" mnemonicParsing="false" onAction="#exitButtonAction" style="-fx-background-color: white;" text="X" textFill="#bf0808">
+                     <font>
+                        <Font name="Arial Black" size="16.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="300.0" layoutY="45.0" prefHeight="80.0" prefWidth="383.0" text="Weather App" textFill="#f8f5f5">
+                     <font>
+                        <Font name="Arial Black" size="53.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <ImageView fitHeight="523.0" fitWidth="452.0" layoutX="48.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/weather.png" />
+               </image>
+            </ImageView>
+            <ProgressBar fx:id="Myprogress" layoutX="546.0" layoutY="468.0" prefHeight="43.0" prefWidth="391.0" progress="0.0" style="-fx-background-color: red;" />
+            <Label layoutX="663.0" layoutY="340.0" prefHeight="51.0" prefWidth="243.0" text="Weather App" textFill="#e80909">
+               <font>
+                  <Font name="Britannic Bold" size="27.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</Pane>
